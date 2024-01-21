@@ -1,5 +1,5 @@
 ARG GOARCH=adm64
-FROM python:3.10-slim-buster  
+FROM registry.cn-qingdao.aliyuncs.com/fs_lee/fs:1.20 as builder
   
 WORKDIR /app  
   
